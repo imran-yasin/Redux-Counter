@@ -13,6 +13,9 @@ const ourName = createSlice({
     hideName(state) {
       state.value = null;
     },
+    firstName(state) {
+      state.value = 10;
+    },
   },
 });
 
